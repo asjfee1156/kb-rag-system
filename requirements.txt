@@ -1,0 +1,10 @@
+# 企業級離線智能知識庫與 RAG 檢索系統 - Python 依賴
+# 適用 Python 3.10 ~ 3.13（建議 3.12）
+# 注意：torch 建議安裝 CPU 版以縮小體積：
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+fastapi>=0.110.0
+uvicorn>=0.29.0
+numpy>=1.26.0
+python-multipart>=0.0.9
+sentence-transformers>=2.7.0

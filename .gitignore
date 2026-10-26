@@ -1,0 +1,16 @@
+# 可攜式執行環境(體積大,請改用 Release 下載完整 zip)
+runtime/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 作業系統 / 編輯器
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.log
